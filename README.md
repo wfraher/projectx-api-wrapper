@@ -1,4 +1,4 @@
-# ProjectX API Python Wrapper
+# ProjectX / TopStepX API Python Wrapper
 
 TopStepX/ProjectX has a new API and it's time we use it! This is a comprehensive Python wrapper for the ProjectX Gateway API that provides a simple and intuitive interface for interacting with the ProjectX trading platform. This wrapper handles authentication, session management, and provides methods for all major trading operations.
 

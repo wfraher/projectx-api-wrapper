@@ -4,6 +4,7 @@ setup(
     name="projectx-api-wrapper",
     version="0.1.0",
     packages=find_packages(),
+    py_modules=["projectx_api"],
     install_requires=[
         "requests>=2.31.0",
     ],

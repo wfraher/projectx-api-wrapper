@@ -38,8 +38,28 @@ TopStepX/ProjectX has a new API and it's time we use it! This is a comprehensive
 
 ## Installation
 
+### Editable (recommended for development)
+
 ```bash
-pip install -r requirements.txt
+python3 -m pip install -e .
+```
+
+### Local path install
+
+```bash
+python3 -m pip install /path/to/projectx-api-wrapper
+```
+
+### Install directly from GitHub
+
+```bash
+python3 -m pip install "git+https://github.com/wfraher/projectx-api-wrapper.git"
+```
+
+### Verify installation
+
+```bash
+python3 -c "import projectx_api; print(projectx_api.__file__)"
 ```
 
 ## Quick Start
